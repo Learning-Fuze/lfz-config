@@ -4,4 +4,4 @@
 test -f .eslintrc && exit 0
 
 echo Copying config files...
-cp -r ./config/. $INIT_CWD
+cp -r ./config/. ../../
