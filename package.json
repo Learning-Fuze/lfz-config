@@ -1,0 +1,11 @@
+{
+  "name": "lfz-config",
+  "version": "1.0.0",
+  "description": "Configuration files used by LFZ template projects",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "sh ./setup.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
