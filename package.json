@@ -1,5 +1,5 @@
 {
-  "name": "@learning-fuze/lfz-config",
+  "name": "@learningfuze/lfz-config",
   "version": "1.0.0",
   "description": "Configuration files used by LFZ projects",
   "main": "index.js",
