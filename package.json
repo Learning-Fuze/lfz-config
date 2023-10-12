@@ -1,7 +1,7 @@
 {
-  "name": "lfz-config",
+  "name": "@learning-fuze/lfz-config",
   "version": "1.0.0",
-  "description": "Configuration files used by LFZ template projects",
+  "description": "Configuration files used by LFZ projects",
   "main": "index.js",
   "author": "",
   "license": "ISC"
