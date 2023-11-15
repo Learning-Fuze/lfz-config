@@ -23,6 +23,7 @@
       }
     ]
   },
+  "ignorePatterns": ["**/*.js"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
@@ -35,6 +36,12 @@
       "plugins": ["@typescript-eslint"],
       "rules": {
         "@typescript-eslint/no-explicit-any": "off"
+      }
+    },
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "error"
       }
     },
     {
