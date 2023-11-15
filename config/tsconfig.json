@@ -17,6 +17,5 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "jsx": "react-jsx"
-  },
-  "include": ["."]
+  }
 }
