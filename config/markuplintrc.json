@@ -1,7 +1,5 @@
 {
-  "excludeFiles": [
-    "**/node_modules/**"
-  ],
+  "excludeFiles": ["**/node_modules/**"],
   "rules": {
     "attr-duplication": true,
     "character-reference": true,
@@ -36,6 +34,13 @@
       "selector": "a",
       "rules": {
         "character-reference": false
+      }
+    },
+    {
+      "selector": "meta",
+      "rules": {
+        "required-attr": false,
+        "invalid-attr": false
       }
     }
   ]
