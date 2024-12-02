@@ -6,8 +6,6 @@ This repo contains configuration files, such as lint configuration, that are use
 
 The files in the `config` folder should be imported into configuration files at the root of the project.
 
-# Usage
-
 ## Using the Config
 
 `npm install --save-dev @learningfuze/lfz-config`
@@ -33,9 +31,20 @@ module.exports = config;
 
 ## Publishing
 
-This package is published as `@learningfuze/lfz-config`. Every time this package is updated it should be republished, using `npm publish` from the command line. Remember to bump the version before publishing! For example:
+This package is published as `@learningfuze/lfz-config`. Every time this package is updated it should be republished. Below are the steps to publishing the package:
+
+**NOTE: These steps require you to have a npm account that is apart of the LearningFuze NPM organization. If you are not already a member, reach out to [Robert Gardner](https://learningfuze-team.slack.com/team/U04EZE2KQER) on Slack to receive an invite**
 
 ```sh
+npm login
 npm version patch -m "Turn on lint rule X"
 npm publish
+```
+
+After you have successfully published the package, add/commit/push your changes to the repository
+
+```sh
+git add .
+git commit -m "Turned on lint rule X"
+git push origin main
 ```
